@@ -1,0 +1,23 @@
+<resources >
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SQLiteFoodOrderApp" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/appColor</item>
+        <item name="colorSecondary">@color/appColor</item>
+
+    </style>
+
+    <style name="orderDetails" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/appColor</item>
+        <item name="colorSecondary">@color/appColor</item>
+
+
+    </style>
+    <style name="splashScreen" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/appColor</item>
+        <item name="colorSecondary">@color/appColor</item>
+
+    </style>
+    <style name="Theme.SQLiteFoodOrderApp" parent="Base.Theme.SQLiteFoodOrderApp" />
+</resources>
